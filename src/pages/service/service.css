@@ -1,0 +1,31 @@
+.service-background-img {
+  background-image: url(../../assets/footer.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+}
+.serviceOne {
+  width: 350px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 25px;
+  padding: 40px 13px 30px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.service-img img {
+  margin: 0 auto;
+}
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .serviceOne {
+    width: 350px;
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 25px;
+    padding: 40px 13px 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  .service-grid {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}

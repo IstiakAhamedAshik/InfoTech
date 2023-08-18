@@ -1,0 +1,24 @@
+.background-img {
+  background-image: url(../../assets/footer.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+nav {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.icon {
+  font-size: 30px;
+}
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .nav-large {
+    position: relative;
+  }
+  .nav-small {
+    position: absolute;
+    left: 0px;
+  }
+}

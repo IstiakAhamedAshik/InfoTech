@@ -1,0 +1,89 @@
+.home-b-img {
+  height: 90vh;
+  width: 100%;
+  background-image: url(../../assets/hero-shape.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left bottom;
+}
+
+.image0 {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  transform: scaleX(-1);
+}
+.home-btn {
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+  .image-div {
+    position: relative;
+  }
+
+  .image0 {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    transform: scaleX(-1);
+    position: absolute;
+    right: 0;
+    top: -90px;
+  }
+  .home768 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .details-768 {
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .home-b-img{
+height: 90vh;
+  }
+  .image-div {
+    position: relative;
+  }
+
+  .image0 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transform: scaleX(-1);
+    position: absolute;
+    top: -40px;
+    left: 85px;
+    margin-top: 65px;
+  }
+  .home768 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+     position: relative;
+  }
+  .details-768 {
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  .details-768 h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .details-768 p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .home-btn {
+    position: absolute;
+    bottom: -250px;
+    left: 120px;
+  }
+}
