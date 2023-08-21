@@ -1,21 +1,14 @@
 import React from 'react'
 import Navbar from '../components/navbar/Navbar'
-// import { Outlet } from 'react-router-dom'
-import Home from '../pages/home/Home'
-
-import Service from '../pages/service/Service'
-import About from '../pages/about/About'
-import Embaded from '../pages/embaded/Embaded'
+import { Outlet } from 'react-router-dom'
+import Footer from '../components/navbar/footer/Footer'
 
 const Main = () => {
   return (
     <>
       <Navbar />
-      <Home></Home>
-      <About></About>
-      <Service></Service>
-      <Embaded></Embaded>
-      {/* <Outlet /> */}
+      <Outlet />
+      <Footer></Footer>
     </>
   )
 }

@@ -33,7 +33,7 @@ const Service = () => {
     },
   ]
   return (
-    <div className='mt-28 service-background-img'>
+    <div id='service' className='mt-28 service-background-img'>
       <h1 className='text-3xl text-blue-700 mb-5 font-bold text-center'>
         Our Services
       </h1>

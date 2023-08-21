@@ -1,0 +1,88 @@
+.choseUs {
+  width: 600px;
+  height: 588px;
+}
+.ChoseUs-details {
+  width: 600px;
+  height: 400px;
+}
+.chose-button {
+  background-color: #5b21b6;
+  color: white;
+}
+.chose-button:hover {
+  background-color: #86198f;
+  transition: 2s;
+  color: white;
+}
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .choseUs-667 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  .ChoseUs-img {
+    width: auto;
+  }
+  .ChoseUs-details {
+    width: 600px;
+    text-align: justify;
+    margin-left: 20px;
+  }
+  .about-info {
+    padding-bottom: 15px;
+  }
+  .chose-button {
+    background-color: #5b21b6;
+    color: white;
+    margin-left: 180px;
+  }
+  
+  .chose-button:hover {
+    background-color: #86198f;
+    transition: 2s;
+    color: white;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .choseUs-667 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+  .choseUs {
+    width: 300px;
+    height: 300px;
+  }
+
+  .ChoseUs-details {
+    width: 318px;
+    min-height: 200px;
+    text-align: justify;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .ChoseUs-details h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .chose-button {
+    background-color: #5b21b6;
+    color: white;
+    margin-left: 25px;
+  }
+  .chose-button:hover {
+    background-color: #86198f;
+    transition: 2s;
+    color: white;
+  }
+  .ChoseUs-info1 {
+    font-size: 14px;
+  }
+}

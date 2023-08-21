@@ -4,9 +4,8 @@ import aboutimg from '../../assets/about1.png'
 import finger from '../../assets/animation_llgfc786.json'
 import './about.css'
 const About = () => {
- 
   return (
-    <div className='flex justify-center items-center about-667'>
+    <div id='about-us' className='flex justify-center items-center about-667'>
       <div className='about'>
         <img src={aboutimg} alt='' srcset='' className='about-img' />
       </div>
