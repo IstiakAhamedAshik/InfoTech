@@ -1,10 +1,10 @@
-.embaded-background-img {
-  height: 70vh;
+ .embaded-background-img {
+  height:70vh;
   background-image: url(../../assets/yellow.jpg);
-  background-repeat: no-repeat;
+ background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+} 
 
 .embaded-about {
   width: 500px;
@@ -33,11 +33,13 @@
     position: relative;
   }
   .embaded-about {
-    width: 500px;
+    width: 400px;
+    height:250px;
   }
 
   .embaded-details {
     width: 600px;
+     height: 150px;
     text-align: justify;
     margin-left: 20px;
   }
@@ -60,10 +62,12 @@
 
   .embaded-about {
     width: 300px;
+    height: 200px;
     margin: 0 auto;
   }
   .embaded-details {
-    width: auto;
+    width:300px;
+    height: 260px;
     text-align: justify;
     margin-left: 5px;
     margin-top: 50px;

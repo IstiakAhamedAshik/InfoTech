@@ -40,7 +40,7 @@ const Testimonial = () => {
       className=' mt-20px  testimonial-swiper testimonial-background-img'
       id='testimonial'
     >
-      <h1 className='text-3xl text-blue-700 mb-5 font-bold text-center'>
+      <h1 className='text-3xl text-blue-700 mb-5 font-bold text-center font-serif'>
         Testimonial
       </h1>
       <p className='text-center font-semibold text-blue-950'>

@@ -1,9 +1,12 @@
 import React from 'react'
 import './service.css'
+
 const OneService = (props) => {
- const {img,name,details}=props.service
+  const { img, name, details } = props.service
+
   return (
     <div className='serviceOne'>
+      
       <div className='service-img'>
         <img src={img} alt='' srcset='' />
       </div>

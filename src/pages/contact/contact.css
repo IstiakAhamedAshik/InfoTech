@@ -1,0 +1,164 @@
+.contact-background-img {
+  height: 50vh;
+  background-image: url(../../assets/yellow.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contact-div {
+  margin: 0 auto;
+  padding: 100px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  margin-top: -150px;
+}
+.all-contact {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+.contact-field {
+  width: 600px;
+  border: 1px solid blue;
+  border-top: 6px solid blue;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 20px;
+}
+.contact-field input {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.contact-field Textarea {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.contact-p {
+  border-left: 6px solid blue;
+  width: 200px;
+  height: 120px;
+  padding: 8px;
+  margin-left: 15px;
+}
+.btn-f {
+  background: #1773ea;
+  color: white;
+  padding: 8px 15px;
+  font-weight: 700;
+  border-radius: 7px;
+}
+.btn-l {
+  background: #003ea3;
+  color: white;
+  padding: 8px 15px;
+  font-weight: 700;
+  border-radius: 7px;
+}
+.btn-i {
+  background: linear-gradient(to right, #efb40d, #db1130, #7a39a9);
+  color: white;
+  padding: 8px 15px;
+  font-weight: 700;
+  border-radius: 7px;
+}
+.send-btn {
+  width: 100%;
+  background: #b7eeff;
+  border: none;
+  color: #0f55c7;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 40px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 25px;
+}
+.send-btn:hover {
+  background: blue;
+  color: white;
+  transition: 1s;
+}
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .contact-div {
+    width: 700px;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    margin-top: -150px;
+  }
+  .all-contact {
+  display: block;
+  justify-content: center;
+}
+.contact-field {
+  width: 500px;
+  border: 1px solid blue;
+  border-top: 6px solid blue;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 20px;
+}
+}
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .contact-div {
+    width: 350px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    margin-top: -100px;
+  }
+  .all-contact {
+  display: block;
+  justify-content: center;
+}
+.contact-info {
+  display:block;
+  align-items: center;
+}
+.button{
+  width: 300px;
+}
+.contact-field {
+  width: 300px;
+  border: 1px solid blue;
+  border-top: 6px solid blue;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 20px;
+}
+.btn-f {
+  background: #1773ea;
+  color: white;
+  padding: 10px 10px;
+  font-weight: 500;
+  border-radius: 7px;
+}
+.btn-l {
+  background: #003ea3;
+  color: white;
+   padding: 10px 10px;
+  font-weight: 500;
+  border-radius: 7px;
+}
+.btn-i {
+  background: linear-gradient(to right, #efb40d, #db1130, #7a39a9);
+  color: white;
+    padding: 10px 10px;
+  font-weight: 500;
+  border-radius: 7px;
+}
+}

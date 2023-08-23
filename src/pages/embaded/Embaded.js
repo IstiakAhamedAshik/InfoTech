@@ -3,7 +3,7 @@ import './embaded.css'
 import embaddedbrain from '../../assets/embadedBrain.webp'
 const Embaded = () => {
   return (
-    <div className='flex justify-evenly items-center embaded-667 mt-20 embaded-background-img'>
+    <div className='flex justify-evenly items-center embaded-667 embaded-background-img mt-20 '>
       <div className='embaded-details'>
         <h1 className='text-xl text-violet-950 mb-5 font-medium'>
           EMBEDDED SYSTEMS{' '}

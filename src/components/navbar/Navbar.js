@@ -20,49 +20,89 @@ const Navbar = () => {
           {/* destop view  */}
           <div className='hidden lg:flex gap-4'>
             {location.pathname === '/contact' ? (
-              <Link to='/' className='font-semibold text-xl text-slate-700'>
+              <Link
+                to='/'
+                className='font-semibold text-xl text-slate-700 font-serif'
+              >
+                Home
+              </Link>
+            ) : location.pathname === '/allservice' ? (
+              <Link
+                to='/'
+                className='font-semibold text-xl text-slate-700 font-serif'
+              >
                 Home
               </Link>
             ) : (
               <AnchorLink
                 href='#home'
-                className='font-semibold text-xl text-slate-700'
+                className='font-semibold text-xl text-slate-700 font-serif'
               >
                 Home
               </AnchorLink>
             )}
             {location.pathname === '/contact' ? (
-              <Link to='/' className='font-semibold text-xl text-slate-700'>
+              <Link
+                to='/'
+                className='font-semibold text-xl text-slate-700 font-serif'
+              >
+                About
+              </Link>
+            ) : location.pathname === '/allservice' ? (
+              <Link
+                to='/'
+                className='font-semibold text-xl text-slate-700 font-serif'
+              >
                 About
               </Link>
             ) : (
               <AnchorLink
                 href='#about-us'
-                className='font-semibold text-xl text-slate-700'
+                className='font-semibold text-xl text-slate-700 font-serif'
               >
                 About
               </AnchorLink>
             )}
             {location.pathname === '/contact' ? (
-              <Link to='/' className='font-semibold text-xl text-slate-700'>
+              <Link
+                to='/'
+                className='font-semibold text-xl text-slate-700 font-serif'
+              >
+                Service
+              </Link>
+            ) : location.pathname === '/allservice' ? (
+              <Link
+                to='/'
+                className='font-semibold text-xl text-slate-700 font-serif'
+              >
                 Service
               </Link>
             ) : (
               <AnchorLink
                 href='#service'
-                className='font-semibold text-xl text-slate-700'
+                className='font-semibold text-xl text-slate-700 font-serif'
               >
                 Service
               </AnchorLink>
             )}
             {location.pathname === '/contact' ? (
-              <Link to='/' className='font-semibold text-xl text-slate-700'>
+              <Link
+                to='/'
+                className='font-semibold text-xl text-slate-700 font-serif'
+              >
+                Testimonial
+              </Link>
+            ) : location.pathname === '/allservice' ? (
+              <Link
+                to='/'
+                className='font-semibold text-xl text-slate-700 font-serif'
+              >
                 Testimonial
               </Link>
             ) : (
               <AnchorLink
                 href='#testimonial'
-                className='font-semibold text-xl text-slate-700'
+                className='font-semibold text-xl text-slate-700 font-serif'
               >
                 Testimonial
               </AnchorLink>
@@ -70,7 +110,7 @@ const Navbar = () => {
 
             <Link
               to='/contact'
-              className='font-semibold text-xl text-slate-700'
+              className='font-semibold text-xl text-slate-700 font-serif'
             >
               Contact
             </Link>
@@ -96,14 +136,21 @@ const Navbar = () => {
                   {location.pathname === '/contact' ? (
                     <Link
                       to='/'
-                      className='font-semibold text-xl text-slate-700 left-2 ml-3'
+                      className='font-semibold text-xl text-slate-700 font-serif'
+                    >
+                      Home
+                    </Link>
+                  ) : location.pathname === '/allservice' ? (
+                    <Link
+                      to='/'
+                      className='font-semibold text-xl text-slate-700 font-serif'
                     >
                       Home
                     </Link>
                   ) : (
                     <AnchorLink
                       href='#home'
-                      className='font-semibold text-xl text-slate-700 left-2 ml-3'
+                      className='font-semibold text-xl text-slate-700 left-2 ml-3 mt-4 font-serif'
                     >
                       Home
                     </AnchorLink>
@@ -111,14 +158,21 @@ const Navbar = () => {
                   {location.pathname === '/contact' ? (
                     <Link
                       to='/'
-                      className='font-semibold text-xl text-slate-700 left-2 ml-3'
+                      className='font-semibold text-xl text-slate-700 font-serif'
+                    >
+                      About
+                    </Link>
+                  ) : location.pathname === '/allservice' ? (
+                    <Link
+                      to='/'
+                      className='font-semibold text-xl text-slate-700 font-serif'
                     >
                       About
                     </Link>
                   ) : (
                     <AnchorLink
                       href='#about-us'
-                      className='font-semibold text-xl text-slate-700 left-2 ml-3'
+                      className='font-semibold text-xl text-slate-700 left-2 ml-3 font-serif'
                     >
                       About
                     </AnchorLink>
@@ -126,14 +180,21 @@ const Navbar = () => {
                   {location.pathname === '/contact' ? (
                     <Link
                       to='/'
-                      className='font-semibold text-xl text-slate-700 left-2 ml-3'
+                      className='font-semibold text-xl text-slate-700 font-serif'
+                    >
+                      Service
+                    </Link>
+                  ) : location.pathname === '/allservice' ? (
+                    <Link
+                      to='/'
+                      className='font-semibold text-xl text-slate-700 font-serif'
                     >
                       Service
                     </Link>
                   ) : (
                     <AnchorLink
                       href='#service'
-                      className='font-semibold text-xl text-slate-700 left-2 ml-3'
+                      className='font-semibold text-xl text-slate-700 left-2 ml-3 font-serif'
                     >
                       Service
                     </AnchorLink>
@@ -141,21 +202,29 @@ const Navbar = () => {
                   {location.pathname === '/contact' ? (
                     <Link
                       to='/'
-                      className='font-semibold text-xl text-slate-700 left-2 ml-3'
+                      className='font-semibold text-xl text-slate-700 font-serif'
+                    >
+                      Testimonial
+                    </Link>
+                  ) : location.pathname === '/allservice' ? (
+                    <Link
+                      to='/'
+                      className='font-semibold text-xl text-slate-700 left-2 ml-3 font-serif'
                     >
                       Testimonial
                     </Link>
                   ) : (
                     <AnchorLink
                       href='#testimonial'
-                      className='font-semibold text-xl text-slate-700 left-2 ml-3 '
+                      className='font-semibold text-xl text-slate-700 left-2 ml-3 font-serif'
                     >
                       Testimonial
                     </AnchorLink>
                   )}
+
                   <Link
                     to='/contact'
-                    className='font-semibold text-xl left-2 ml-3 text-slate-700 mb-2'
+                    className='font-semibold text-xl left-2 ml-3 text-slate-700 mb-2 font-serif'
                   >
                     Contact
                   </Link>

@@ -1,4 +1,5 @@
 import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './home.css'
 import image0 from '../../assets/home-banner.webp'
 import About from '../about/About'
@@ -15,7 +16,7 @@ export default function Home() {
         <div className='flex justify-center  home768'>
           <div className='details-768 lg:mt-28'>
             <h1 className='font-medium text-white'>Welcome to MD Infotech !</h1>
-            <h1 className='text-6xl mt-4 text-white'>
+            <h1 className='text-5xl mt-4 text-white'>
               Hungry For Challenges <br />
               <span className='font-bold mt-3 text-white span-home'>
                 Impact and More !
@@ -24,7 +25,9 @@ export default function Home() {
             <p className='font-medium mt-4 text-white'>
               One of the pioneer ITES provider company.
             </p>
-            <button className='mt-10 home-btn'>Learn More</button>
+            <AnchorLink href='#service'>
+              <button className='mt-10 home-btn'>Learn More</button>
+            </AnchorLink>
           </div>
           <div className='pt-20 image-div'>
             <img src={image0} alt='' className='image0' />

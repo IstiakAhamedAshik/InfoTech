@@ -10,7 +10,7 @@ const Chooseus = () => {
           <img src={chooseUs} alt='' srcset='' className='ChoseUs-img mt-14' />
         </div>
         <div className='ChoseUs-details'>
-          <h1 className='text-3xl text-blue-700 mb-5 font-bold'>
+          <h1 className='text-3xl text-blue-700 mb-5 font-bold font-serif'>
             Why Choose Us?
           </h1>
           <p className='text-xl text-justify ChoseUs-info1'>
@@ -26,8 +26,10 @@ const Chooseus = () => {
           </p>
 
           <div className='mt-4 ChoseUs-info'>
-            <Link>
-              <button className='btn btn-wide chose-button font-bold'>Contact us</button>
+            <Link to='/contact'>
+              <button className='btn btn-wide chose-button font-bold'>
+                Contact us
+              </button>
             </Link>
           </div>
         </div>
