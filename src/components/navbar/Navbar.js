@@ -13,7 +13,7 @@ const Navbar = () => {
       <section className='container mx-auto flex justify-between relative nav-large'>
         <div>
           <Link to='/' className='text-3xl font-bold ml-10 font-serif'>
-            Infotech
+            AI-INFOTECH
           </Link>
         </div>
         <div>
