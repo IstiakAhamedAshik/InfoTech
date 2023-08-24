@@ -43,7 +43,7 @@ ul {
     width: 400px;
   }
 }
-@media only screen and (min-width: 375px) and (max-width: 667px) {
+@media only screen and (min-width: 200px) and (max-width: 600px){
   .all-services {
     width: 350px;
     margin: 0 auto;

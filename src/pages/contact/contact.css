@@ -111,7 +111,7 @@
   padding: 20px;
 }
 }
-@media only screen and (min-width: 375px) and (max-width: 667px) {
+@media only screen and (min-width: 200px) and (max-width: 600px) {
   .contact-div {
     width: 350px;
     margin: 0 auto;
