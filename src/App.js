@@ -1,9 +1,11 @@
 import { RouterProvider } from "react-router-dom"
 import { router } from "./routes/Router"
-
+import './App.css'
 function App() {
   return (
-    <RouterProvider router={router} />
+    <div className='bg-white background'>
+      <RouterProvider router={router} />
+    </div>
   )
 }
 

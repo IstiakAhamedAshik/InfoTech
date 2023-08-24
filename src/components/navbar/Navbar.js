@@ -136,14 +136,14 @@ const Navbar = () => {
                   {location.pathname === '/contact' ? (
                     <Link
                       to='/'
-                      className='font-semibold text-xl text-slate-700 font-serif'
+                      className='font-semibold text-xl text-slate-700 font-serif left-2 ml-3'
                     >
                       Home
                     </Link>
                   ) : location.pathname === '/allservice' ? (
                     <Link
                       to='/'
-                      className='font-semibold text-xl text-slate-700 font-serif'
+                      className='font-semibold text-xl text-slate-700 font-serif left-2 ml-3'
                     >
                       Home
                     </Link>
@@ -158,14 +158,14 @@ const Navbar = () => {
                   {location.pathname === '/contact' ? (
                     <Link
                       to='/'
-                      className='font-semibold text-xl text-slate-700 font-serif'
+                      className='font-semibold text-xl text-slate-700 font-serif left-2 ml-3'
                     >
                       About
                     </Link>
                   ) : location.pathname === '/allservice' ? (
                     <Link
                       to='/'
-                      className='font-semibold text-xl text-slate-700 font-serif'
+                      className='font-semibold text-xl text-slate-700 font-serif left-2 ml-3'
                     >
                       About
                     </Link>
@@ -180,14 +180,14 @@ const Navbar = () => {
                   {location.pathname === '/contact' ? (
                     <Link
                       to='/'
-                      className='font-semibold text-xl text-slate-700 font-serif'
+                      className='font-semibold text-xl text-slate-700 font-serif left-2 ml-3'
                     >
                       Service
                     </Link>
                   ) : location.pathname === '/allservice' ? (
                     <Link
                       to='/'
-                      className='font-semibold text-xl text-slate-700 font-serif'
+                      className='font-semibold text-xl text-slate-700 font-serif left-2 ml-3'
                     >
                       Service
                     </Link>
@@ -202,7 +202,7 @@ const Navbar = () => {
                   {location.pathname === '/contact' ? (
                     <Link
                       to='/'
-                      className='font-semibold text-xl text-slate-700 font-serif'
+                      className='font-semibold text-xl text-slate-700 font-serif left-2 ml-3'
                     >
                       Testimonial
                     </Link>

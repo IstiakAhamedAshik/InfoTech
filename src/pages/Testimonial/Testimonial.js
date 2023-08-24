@@ -76,7 +76,7 @@ const Testimonial = () => {
                     />
                   </figure>
                   <div className='card-body pt-1 items-center text-center'>
-                    <p className='text=xl w-[500px] h-[50px] text-justify swipe-para'>
+                    <p className='text=xl w-[500px] h-[55px] text-justify swipe-para'>
                       {customer.description}
                     </p>
                     <div className='card-actions mt-6'>
